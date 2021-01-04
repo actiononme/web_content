@@ -4,6 +4,16 @@ force for find web content
 # useage
 
 $ ./web_content.py http://www.baidu.com -w /tmp/wordlist.txt -o save.txt -e html -only 200  
+output will be  
+
+http://www.baidu.com/!.html 404  
+http://www.baidu.com/!_archives.html 404  
+http://www.baidu.com/!_images.html 404  
+http://www.baidu.com/!backup.html 404  
+
+save file on the current directory
+will be save.txt  
+and only 200 statu code will in the save.txt file  
 
 $ ./web_content.py --help  
 Usage: web_content.py [OPTIONS] URL  
