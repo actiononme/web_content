@@ -14,6 +14,7 @@ http://www.baidu.com/!backup.html 404
 save file on the current directory
 will be save.txt  
 and only 200 statu code will in the save.txt file  
+if -only option no in use,will save all status code of the web content
 
 $ ./web_content.py --help  
 Usage: web_content.py [OPTIONS] URL  
